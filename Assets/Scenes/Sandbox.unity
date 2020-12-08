@@ -323,7 +323,7 @@ TilemapRenderer:
   m_SortingLayer: 5
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -2478,7 +2478,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: d6983b5dbb2206a4ea1f77a5356bcad2, type: 2}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2768,7 +2768,7 @@ TilemapRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.016129017, y: 0.016129017, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -8675,7 +8675,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064312667}
   m_LocalRotation: {x: 0, y: 0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.229723, y: 4.330716, z: 1.3669077}
+  m_LocalPosition: {x: -5.0354376, y: 4.330716, z: 1.3669077}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 363146345}
@@ -9040,7 +9040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5037774605900135398, guid: 0f69bf97636014749962de4ff84665c7, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5310755464707035310, guid: 0f69bf97636014749962de4ff84665c7, type: 3}
       propertyPath: runSpeed
@@ -9049,6 +9049,14 @@ PrefabInstance:
     - target: {fileID: 5310755464707035310, guid: 0f69bf97636014749962de4ff84665c7, type: 3}
       propertyPath: jumpSpeed
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310755464707035310, guid: 0f69bf97636014749962de4ff84665c7, type: 3}
+      propertyPath: deathKick.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5310755464707035310, guid: 0f69bf97636014749962de4ff84665c7, type: 3}
+      propertyPath: deathKick.y
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5386852980626504209, guid: 0f69bf97636014749962de4ff84665c7, type: 3}
       propertyPath: m_Name
